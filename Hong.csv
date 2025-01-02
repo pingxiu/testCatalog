@@ -1,4 +1,4 @@
-Name,Set code,Set name,Collector number,Foil,Rarity,Quantity,ManaBox ID,Scryfall ID,Purchase price,Misprint,Altered,Condition,Language,Purchase price currency
+Name,Set_code,Set_name,Collector_number,Foil,Rarity,Quantity,ManaBox_ID,Scryfall_ID,Purchase_price,Misprint,Altered,Condition,Language,Purchase_price_currency
 Windgrace's Judgment,C18,Commander 2018,49,normal,rare,1,794,d8b8f56c-091f-4932-9216-af58f7ea4bd7,0.59,false,false,near_mint,en,USD
 Blood Money,PCLB,Battle for Baldur's Gate Promos,116s,foil,mythic,1,69934,dec899f3-c145-4452-b0c1-6dcb3960c25f,4.99,false,false,near_mint,en,USD
 "Vito, Thorn of the Dusk Rose",PM21,Core Set 2021 Promos,127p,normal,rare,1,51639,2a0eb995-b2aa-4915-a69e-d6995c91e589,6.99,false,false,near_mint,en,USD
