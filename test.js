@@ -23,7 +23,8 @@ function displayItems() {
     catalog.innerHTML = '';
     const filteredItems = items.filter(item => {
         const searchTerm = document.getElementById('search').value.toLowerCase();
-        return item.name.toLowerCase().includes(searchTerm) || item.category.toLowerCase().includes(searchTerm);
+        // return item.name.toLowerCase().includes(searchTerm) || item.category.toLowerCase().includes(searchTerm);
+        return item.Name.toLowerCase().includes(searchTerm);
     });
     const paginatedItems = filteredItems.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
     
