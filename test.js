@@ -1,4 +1,4 @@
-const itemsPerPage = 60;
+const itemsPerPage = 120;
 let currentPage = 1;
 let items = [];
 
