@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search');
 
     // Load CSV data
-    Papa.parse('catalog.csv', {
+    Papa.parse('Hong.csv', {
         download: true,
         header: true,
         complete: function(results) {
