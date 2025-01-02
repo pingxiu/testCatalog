@@ -1,11 +1,41 @@
-.item {
-    border: 1px solid #ccc;
-    margin: 10px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search {
     padding: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+#catalog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
     border-radius: 5px;
+    padding: 10px;
     text-align: center;
 }
-img {
+
+.card img {
     max-width: 100%;
     height: auto;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
 }
