@@ -33,6 +33,7 @@ function displayItems() {
         card.className = 'card';
         card.innerHTML = `
             <h2>${item.Name}</h2>
+            <p>${item.Set_name}</p>
             <p>${item.Quantity}</p>
         `;
         catalog.appendChild(card);
