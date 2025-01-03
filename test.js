@@ -16,7 +16,12 @@ async function fetchCSV() {
         }
     });
 }
-
+const rupiah = (number)=>{
+    return new Intl.NumberFormat("id-ID", {
+      style: "currency",
+      currency: "IDR"
+    }).format(number);
+  }
 // Function to display items
 function displayItems() {
     const catalog = document.getElementById('catalog');
@@ -35,7 +40,7 @@ function displayItems() {
             <h2>${item.Name} ${item.Foil}</h2>
             <img src="https://manatorsk.com/cdn/shop/products/${item.Scryfall_ID}_720x.jpg"></img>
             <p>${item.Set_name}</p>
-            <p>${parseFloat(item.Purchase_price)*15000}</p>
+            <p>${rupiah(item.Purchase_price)*15000}</p>
             <p>${item.Quantity}</p>
         `;
         catalog.appendChild(card);
