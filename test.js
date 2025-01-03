@@ -32,9 +32,10 @@ function displayItems() {
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `
-            <h2>${item.Name}</h2>
+            <h2>${item.Name} ${item.Foil}</h2>
             <img src="https://manatorsk.com/cdn/shop/products/${item.Scryfall_ID}_720x.jpg"></img>
             <p>${item.Set_name}</p>
+            <p>${parseFloat(item.Purchase_price)*15000}</p>
             <p>${item.Quantity}</p>
         `;
         catalog.appendChild(card);
