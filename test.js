@@ -33,6 +33,7 @@ function displayItems() {
         card.className = 'card';
         card.innerHTML = `
             <h2>${item.Name}</h2>
+            <img src="https://manatorsk.com/cdn/shop/products/${item.Scryfall_ID}_720x.jpg"></img>
             <p>${item.Set_name}</p>
             <p>${item.Quantity}</p>
         `;
