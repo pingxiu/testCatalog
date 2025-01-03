@@ -40,7 +40,7 @@ function displayItems() {
             <h2>${item.Name} ${item.Foil}</h2>
             <img src="https://manatorsk.com/cdn/shop/products/${item.Scryfall_ID}_720x.jpg"></img>
             <p>${item.Set_name}</p>
-            <p>${rupiah(item.Purchase_price)*15000}</p>
+            <p>${rupiah(ParseFloat(item.Purchase_price)*15000)}</p>
             <p>${item.Quantity}</p>
         `;
         catalog.appendChild(card);
